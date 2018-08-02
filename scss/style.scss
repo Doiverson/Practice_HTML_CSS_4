@@ -82,16 +82,18 @@ body {
           margin-left: 1.5em;
           padding-left: 0;
 
-          .current > a {
+          &.current > a,
+          .primary {
             font-weight: 900;
           }
-          .submenu > a {
+          &.submenu > a:before {
+            content:'\f107';
             text-decoration: none;
           }
-          .submenu > a:before {
-            content: '\f107';
-            margin-right: 0.65em;
+          .primary {
+            background: #83d3c9;
           }
+
           a {
             border: solid 1px transparent;
             color: inherit;
