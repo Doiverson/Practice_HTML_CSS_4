@@ -1,4 +1,87 @@
-p {
-  color: tomato; }
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline; }
+
+*, *:before, *:after {
+  box-sizing: inherit; }
+
+body, input, select, textarea {
+  color: #7c8081;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  letter-spacing: 0.025em;
+  line-height: 1.75em; }
+
+h1, h2, h3, h4, h5, h6 {
+  color: inherit;
+  font-weight: 300;
+  line-height: 1.75em;
+  margin-bottom: 1em;
+  text-transform: uppercase; }
+
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+  color: inherit;
+  text-decoration: none;
+  border: 0; }
+
+p, ul, ol, dl, table, blockquote {
+  margin: 0 0 2em 0; }
+
+body {
+  background: darkseagreen; }
+  body .header {
+    cursor: default;
+    font-size: 0.8em;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 10000;
+    animation: none;
+    background: transparent;
+    box-shadow: none;
+    color: #fff;
+    padding-top: 2.5em;
+    padding-bottom: 2.5em;
+    padding-left: 2em;
+    position: absolute; }
+    body .header h1 {
+      font-weight: 900;
+      margin: 0; }
+      body .header h1 span {
+        font-weight: 300; }
+    body .header nav {
+      right: 2.5em;
+      top: 2.2em;
+      letter-spacing: 0.075em;
+      position: absolute;
+      text-transform: uppercase; }
+      body .header nav ul {
+        list-style: none;
+        padding-left: 0;
+        font-size: 1.5em; }
+        body .header nav ul li {
+          display: inline-block;
+          margin-left: 1.5em;
+          padding-left: 0; }
+          body .header nav ul li .current > a {
+            font-weight: 900; }
+          body .header nav ul li .submenu > a {
+            text-decoration: none; }
+          body .header nav ul li .submenu > a:before {
+            content: '\f107';
+            margin-right: 0.65em; }
+          body .header nav ul li a {
+            border: solid 1px transparent;
+            color: inherit;
+            display: inline-block;
+            line-height: 1em;
+            padding: 0.6em 0.75em;
+            text-decoration: none; }
+
+@media screen and (max-width: 1680px) {
+  body, input, select, textarea {
+    font-size: 14px; } }
 
 /*# sourceMappingURL=style.css.map */
