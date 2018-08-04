@@ -113,7 +113,15 @@ body {
     cursor: default;
     padding: 6em 0; /*headerはposition: absolute;なのでイメージ浮く感じ。よってpadding分はページの上から詰められる */
     text-align: center;
-
+    .inner {
+      animation-fill-mode: forwards;
+      background: rgba(52, 27, 43, 0.5);
+      color: #fff;
+      display: inline-block;
+      opacity: 0;
+      padding: 3em;
+      text-align: center;
+    }
 
   }
 }
