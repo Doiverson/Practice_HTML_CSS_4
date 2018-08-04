@@ -93,9 +93,28 @@ body {
       background: rgba(52, 27, 43, 0.5);
       color: #fff;
       display: inline-block;
-      opacity: 0;
-      padding: 3em;
+      padding: 4.5em;
       text-align: center; }
+      body .banner .inner header {
+        display: inline-block;
+        border-bottom: solid 2px;
+        border-top: solid 2px;
+        margin: 0 0 2em 0;
+        padding: 3px 0 3px 0; }
+        body .banner .inner header h2 {
+          border-bottom: solid 2px;
+          border-top: solid 2px;
+          font-size: 2.5em;
+          font-weight: 900;
+          letter-spacing: 0.2em;
+          margin: 0;
+          padding-left: 0.05em;
+          position: relative;
+          text-transform: uppercase; }
+        body .banner .inner header p {
+          letter-spacing: 0.1em;
+          margin: 0;
+          text-transform: uppercase; }
 
 @media screen and (max-width: 1680px) {
   body, input, select, textarea {
