@@ -193,6 +193,22 @@ body {
   }
   .main {
     padding-top: 5em;
+    .container {
+      position: relative;
+      text-align: center;
+      margin: 0 auto;
+      max-width: 100%;
+      &:before {
+        border-bottom: solid 1.5px;
+        border-top: solid 1.5px;
+        content: '';
+        height: 7px;
+        opacity: 0.1;
+        position: absolute;
+        top: 1.75em;
+        width: 43%;
+      }
+    }
   }
 }
 //Media query
