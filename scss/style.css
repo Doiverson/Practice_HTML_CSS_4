@@ -154,7 +154,8 @@ body {
       position: relative;
       text-align: center;
       margin: 0 auto;
-      max-width: 100%; }
+      max-width: 100%;
+      color: #fff; }
       body .main .container:before {
         left: 0;
         border-bottom: solid 1.5px;
@@ -163,7 +164,7 @@ body {
         height: 7px;
         opacity: 0.1;
         position: absolute;
-        top: 1.75em;
+        top: -2.25em;
         width: 43%; }
       body .main .container:after {
         right: 0;
@@ -173,7 +174,7 @@ body {
         height: 7px;
         opacity: 0.1;
         position: absolute;
-        top: 1.75em;
+        top: -2.25em;
         width: 43%; }
       body .main .container .icon {
         cursor: default;
@@ -181,7 +182,7 @@ body {
         left: 0px;
         position: absolute;
         text-align: center;
-        top: 1em;
+        top: -2.8em;
         width: 100%;
         text-decoration: none; }
         body .main .container .icon:before {

@@ -183,6 +183,7 @@ body .main .container {
   text-align: center;
   margin: 0 auto;
   max-width: 100%;
+  color: #fff;
 }
 body .main .container:before {
   left: 0;
@@ -192,7 +193,7 @@ body .main .container:before {
   height: 7px;
   opacity: 0.1;
   position: absolute;
-  top: 1.75em;
+  top: -2.25em;
   width: 43%;
 }
 body .main .container:after {
@@ -203,7 +204,7 @@ body .main .container:after {
   height: 7px;
   opacity: 0.1;
   position: absolute;
-  top: 1.75em;
+  top: -2.25em;
   width: 43%;
 }
 body .main .container .icon {
@@ -212,7 +213,7 @@ body .main .container .icon {
   left: 0px;
   position: absolute;
   text-align: center;
-  top: 1em;
+  top: -2.8em;
   width: 100%;
   text-decoration: none;
 }
