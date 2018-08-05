@@ -8,7 +8,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 }
 
 *, *:before, *:after {
-  box-sizing: border-box;
+  box-sizing: border-box; /*これじゃないと色々はみ出る。レイアウト崩れるから一旦これ。*/
 }
 
 
@@ -188,6 +188,9 @@ body {
       }
     }
 
+  }
+  .main {
+    padding-top: 5em;
   }
 }
 //Media query
