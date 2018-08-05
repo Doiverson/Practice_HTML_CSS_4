@@ -50,7 +50,7 @@ p, ul, ol, dl, table, blockquote {
 
 
 body {
-  background: darkseagreen;
+  background: darkorange;
 
   .header {
     cursor: default;
@@ -248,6 +248,14 @@ body {
           }
         }
       }
+    }
+    .wrapper {
+      margin-bottom: 5em;
+      padding: 5em;
+    }
+    .style2 {
+      background-color: #83d3c9;
+      color: #fff;
     }
   }
 }

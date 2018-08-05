@@ -36,7 +36,7 @@ p, ul, ol, dl, table, blockquote {
   margin: 0 0 2em 0; }
 
 body {
-  background: darkseagreen; }
+  background: darkorange; }
   body .header {
     cursor: default;
     font-size: 0.8em;
@@ -194,6 +194,12 @@ body {
           body .main .container .icon h2 + p {
             margin-bottom: 0;
             padding-top: 1.5em; }
+    body .main .wrapper {
+      margin-bottom: 5em;
+      padding: 5em; }
+    body .main .style2 {
+      background-color: #83d3c9;
+      color: #fff; }
 
 @media screen and (max-width: 1680px) {
   body, input, select, textarea {
