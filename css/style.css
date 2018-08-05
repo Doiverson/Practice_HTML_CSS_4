@@ -8,6 +8,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 
 *, *:before, *:after {
   box-sizing: border-box;
+  /*これじゃないと色々はみ出る。レイアウト崩れるから一旦これ。*/
 }
 
 body, input, select, textarea {
@@ -99,7 +100,9 @@ body .header nav ul li a {
   text-decoration: none;
 }
 body .banner {
-  background-color: orange;
+  background-image: url(".././img/van.jpg");
+  background-position: center 60%;
+  background-size: cover;
   color: #fff;
   cursor: default;
   padding: 6em 0;
@@ -166,6 +169,9 @@ body .banner .inner footer .buttons li a {
   text-align: center;
   text-decoration: none;
   text-transform: uppercase;
+}
+body .main {
+  padding-top: 5em;
 }
 
 @media screen and (max-width: 1680px) {

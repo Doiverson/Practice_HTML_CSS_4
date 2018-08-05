@@ -83,7 +83,9 @@ body {
             padding: 0.6em 0.75em;
             text-decoration: none; }
   body .banner {
-    background-color: orange;
+    background-image: url(".././img/van.jpg");
+    background-position: center 60%;
+    background-size: cover;
     color: #fff;
     cursor: default;
     padding: 6em 0;

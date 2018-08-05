@@ -114,7 +114,9 @@ body {
   }
 
   .banner {
-    background-color: orange;
+    background-image: url(".././img/van.jpg");
+    background-position: center 60%;
+    background-size: cover;
     color: #fff;
     cursor: default;
     padding: 6em 0; /*headerはposition: absolute;なのでイメージ浮く感じ。よってpadding分はページの上から詰められる */
