@@ -204,6 +204,18 @@ body {
       margin: 0 auto;
       max-width: 100%;
       &:before {
+        left: 0;
+        border-bottom: solid 1.5px;
+        border-top: solid 1.5px;
+        content: '';
+        height: 7px;
+        opacity: 0.1;
+        position: absolute;
+        top: 1.75em;
+        width: 43%;
+      }
+      &:after {
+        right: 0;
         border-bottom: solid 1.5px;
         border-top: solid 1.5px;
         content: '';
@@ -228,19 +240,12 @@ body {
           opacity: 0.35;
           font-family: FontAwesome;
         }
-        &:after {
-          right: 0;
-          border-bottom: solid 1.5px;
-          border-top: solid 1.5px;
-          content: '';
-          height: 7px;
-          opacity: 0.1;
-          position: absolute;
-          top: 1.75em;
-          width: 43%;
-        }
         h2 {
           margin-bottom: 0;
+          & + p {
+            margin-bottom: 0;
+            padding-top: 1.5em;
+          }
         }
       }
     }

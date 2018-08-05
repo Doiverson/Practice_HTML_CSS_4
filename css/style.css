@@ -185,6 +185,18 @@ body .main .container {
   max-width: 100%;
 }
 body .main .container:before {
+  left: 0;
+  border-bottom: solid 1.5px;
+  border-top: solid 1.5px;
+  content: '';
+  height: 7px;
+  opacity: 0.1;
+  position: absolute;
+  top: 1.75em;
+  width: 43%;
+}
+body .main .container:after {
+  right: 0;
   border-bottom: solid 1.5px;
   border-top: solid 1.5px;
   content: '';
@@ -210,19 +222,12 @@ body .main .container .icon:before {
   opacity: 0.35;
   font-family: FontAwesome;
 }
-body .main .container .icon:after {
-  right: 0;
-  border-bottom: solid 1.5px;
-  border-top: solid 1.5px;
-  content: '';
-  height: 7px;
-  opacity: 0.1;
-  position: absolute;
-  top: 1.75em;
-  width: 43%;
-}
 body .main .container .icon h2 {
   margin-bottom: 0;
+}
+body .main .container .icon h2 + p {
+  margin-bottom: 0;
+  padding-top: 1.5em;
 }
 
 @media screen and (max-width: 1680px) {
