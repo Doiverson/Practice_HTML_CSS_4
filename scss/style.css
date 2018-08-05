@@ -23,6 +23,10 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 1em;
   text-transform: uppercase; }
 
+h2 {
+  font-size: 1.5em;
+  letter-spacing: 0.1em; }
+
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
   color: inherit;
   text-decoration: none;
@@ -160,6 +164,32 @@ body {
         position: absolute;
         top: 1.75em;
         width: 43%; }
+      body .main .container .icon {
+        cursor: default;
+        height: 7em;
+        left: 0px;
+        position: absolute;
+        text-align: center;
+        top: 1em;
+        width: 100%;
+        text-decoration: none; }
+        body .main .container .icon:before {
+          content: "\f080";
+          font-size: 3.5em;
+          opacity: 0.35;
+          font-family: FontAwesome; }
+        body .main .container .icon:after {
+          right: 0;
+          border-bottom: solid 1.5px;
+          border-top: solid 1.5px;
+          content: '';
+          height: 7px;
+          opacity: 0.1;
+          position: absolute;
+          top: 1.75em;
+          width: 43%; }
+        body .main .container .icon h2 {
+          margin-bottom: 0; }
 
 @media screen and (max-width: 1680px) {
   body, input, select, textarea {
