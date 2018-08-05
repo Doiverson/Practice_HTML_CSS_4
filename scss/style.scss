@@ -37,6 +37,10 @@ p, ul, ol, dl, table, blockquote {
   margin: 0 0 2em 0;
 }
 
+//strong {
+//  font-weight: 400;
+//}
+
 
 body {
   background: darkseagreen;
@@ -141,11 +145,25 @@ body {
           text-transform: uppercase;
 
         }
+      }
 
-        p {
-          letter-spacing: 0.1em;
-          margin: 0;
-          text-transform: uppercase;
+      p {
+        letter-spacing: 0.1em;
+        margin: 0; /*pタグの下に自動で改行が入るので、margin0を指定する */
+        text-transform: uppercase;
+      }
+
+      footer {
+        margin: 2em 0 0 0;
+        .buttons {
+          cursor: default;
+          list-style: none;
+          padding-left: 0;
+
+          li {
+            display: block;
+            padding: 1.5em 0 0 0;
+          }
         }
       }
     }

@@ -132,10 +132,23 @@ body .banner .inner header h2 {
   position: relative;
   text-transform: uppercase;
 }
-body .banner .inner header p {
+body .banner .inner p {
   letter-spacing: 0.1em;
   margin: 0;
+  /*pタグの下に自動で改行が入るので、margin0を指定する */
   text-transform: uppercase;
+}
+body .banner .inner footer {
+  margin: 2em 0 0 0;
+}
+body .banner .inner footer .buttons {
+  cursor: default;
+  list-style: none;
+  padding-left: 0;
+}
+body .banner .inner footer .buttons li {
+  display: block;
+  padding: 1.5em 0 0 0;
 }
 
 @media screen and (max-width: 1680px) {
