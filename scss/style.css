@@ -158,7 +158,7 @@ body {
       margin: 0 auto;
       max-width: 100%;
       color: #fff; }
-      body .main .container:before {
+      body .main .container .special:before {
         left: 0;
         border-bottom: solid 1.5px;
         border-top: solid 1.5px;
@@ -168,7 +168,7 @@ body {
         position: absolute;
         top: -2.25em;
         width: 43%; }
-      body .main .container:after {
+      body .main .container .special:after {
         right: 0;
         border-bottom: solid 1.5px;
         border-top: solid 1.5px;
@@ -178,7 +178,7 @@ body {
         position: absolute;
         top: -2.25em;
         width: 43%; }
-      body .main .container .icon {
+      body .main .container .special .icon {
         cursor: default;
         height: 7em;
         left: 0px;
@@ -187,15 +187,15 @@ body {
         top: -2.8em;
         width: 100%;
         text-decoration: none; }
-        body .main .container .icon:before {
+        body .main .container .special .icon .fa-bar-chart-o:before {
           content: "\f080";
           font-size: 3.5em;
           opacity: 0.35;
           font-family: "Font Awesome 5 Free";
           font-weight: bold; }
-        body .main .container .icon h2 {
+        body .main .container .special .icon h2 {
           margin-bottom: 0; }
-          body .main .container .icon h2 + p {
+          body .main .container .special .icon h2 + p {
             margin-bottom: 0;
             padding-top: 1.5em; }
     body .main .wrapper {
@@ -209,7 +209,12 @@ body {
   body, input, select, textarea {
     font-size: 14px; }
 
-  margin-top: -20px;
-  margin-left: -20px; }
+  .row {
+    margin-top: -20px;
+    margin-left: -20px;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    align-items: stretch; } }
 
 /*# sourceMappingURL=style.css.map */
