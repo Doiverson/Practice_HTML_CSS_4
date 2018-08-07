@@ -92,6 +92,7 @@ body .header nav ul li .primary {
 body .header nav ul li.submenu > a:before {
   content: '\f107';
   font-family: "Font Awesome 5 Free";
+  font-weight: bold;
   text-decoration: none;
 }
 body .header nav ul li .primary {

@@ -100,6 +100,7 @@ body {
           &.submenu > a:before {
             content:'\f107';
             font-family: "Font Awesome 5 Free";
+            font-weight: bold;
             text-decoration: none;
           }
           .primary {
