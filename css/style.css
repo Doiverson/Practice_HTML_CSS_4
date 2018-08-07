@@ -226,10 +226,10 @@ body .main .container .special .icon .fa-bar-chart-o:before {
   font-family: "Font Awesome 5 Free";
   font-weight: bold;
 }
-body .main .container .special .icon h2 {
+body .main .container h2 {
   margin-bottom: 0;
 }
-body .main .container .special .icon h2 + p {
+body .main .container h2 + p {
   margin-bottom: 0;
   padding-top: 1.5em;
 }
