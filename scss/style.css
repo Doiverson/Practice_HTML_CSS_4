@@ -191,7 +191,8 @@ body {
           content: "\f080";
           font-size: 3.5em;
           opacity: 0.35;
-          font-family: FontAwesome; }
+          font-family: "Font Awesome 5 Free";
+          font-weight: bold; }
         body .main .container .icon h2 {
           margin-bottom: 0; }
           body .main .container .icon h2 + p {
