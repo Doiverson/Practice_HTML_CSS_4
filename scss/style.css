@@ -181,5 +181,40 @@ body {
     flex-wrap: wrap;
     box-sizing: border-box;
     align-items: stretch; } }
+.special-line:before {
+  left: 0;
+  border-bottom: solid 1.5px;
+  border-top: solid 1.5px;
+  content: '';
+  height: 7px;
+  opacity: 0.1;
+  position: absolute;
+  top: -2.25em;
+  width: 43%; }
+.special-line:after {
+  right: 0;
+  border-bottom: solid 1.5px;
+  border-top: solid 1.5px;
+  content: '';
+  height: 7px;
+  opacity: 0.1;
+  position: absolute;
+  top: -2.25em;
+  width: 43%; }
+.special-line .icon {
+  cursor: default;
+  height: 7em;
+  left: 0px;
+  position: absolute;
+  text-align: center;
+  top: -2.8em;
+  width: 100%;
+  text-decoration: none; }
+  .special-line .icon:before {
+    content: "\f080";
+    font-size: 3.5em;
+    opacity: 0.35;
+    font-family: "Font Awesome 5 Free";
+    font-weight: bold; }
 
 /*# sourceMappingURL=style.css.map */

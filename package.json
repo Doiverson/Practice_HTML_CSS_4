@@ -1,0 +1,12 @@
+{
+  "name": "practice4",
+  "version": "1.9.4",
+  "description": "\"\"",
+  "main": "index.js",
+  "repository": "git@github.com:Doiverson/Practice_HTML_CSS_4.git",
+  "author": "<doiverson.canada@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  }
+}
