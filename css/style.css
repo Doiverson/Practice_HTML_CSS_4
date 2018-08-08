@@ -247,6 +247,15 @@ body .main .style2 .col-4 .featured-icons li {
   width: 50%;
   padding-left: 0;
 }
+body .main .style2 .col-4 .featured-icons li .icon {
+  display: inline-block;
+  font-size: 6.25em;
+  height: 1.25em;
+  line-height: 1.25em;
+  width: 1em;
+  text-decoration: none;
+  position: relative;
+}
 
 @media screen and (max-width: 1680px) {
   body, input, select, textarea {
