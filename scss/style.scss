@@ -224,6 +224,53 @@ body {
     .style2 {
       background-color: #83d3c9;
       color: #fff;
+      .col-8 {
+        width: 66%;
+
+        .buttons {
+
+          cursor: default;
+          list-style: none;
+          padding-left: 0;
+          &:last-child {
+            margin-bottom: 0;
+          }
+          a {
+            border: solid 1px;
+            border-radius: 0;
+            color: inherit;
+            display: inline-block;
+            font-size: 0.8em;
+            font-weight: 900;
+            letter-spacing: 2px;
+            min-width: 18em;
+            padding: 0 0.75em;
+            line-height: 3.75em;
+            text-align: center;
+            text-decoration: none;
+            text-transform: uppercase;
+          }
+        }
+      }
+      .col-4{
+        width: 34%;
+        .featured-icons{
+          cursor: default;
+          margin: -0.75em 0 0 0;
+          opacity: 0.35;
+          overflow: hidden;
+          position: relative;
+          list-style: none;
+          padding-left: 0;
+          li {
+            display: block;
+            float: left;
+            text-align: center;
+            width: 50%;
+            padding-left: 0;
+          };
+        }
+      }
     }
   }
 }
