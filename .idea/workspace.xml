@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0c333f88-3c42-48c7-9165-ef558d7463c6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
-    </list>
+    <list default="true" id="0c333f88-3c42-48c7-9165-ef558d7463c6" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -128,8 +126,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/scss/style.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1150">
-              <caret line="277" column="32" selection-start-line="277" selection-start-column="24" selection-end-line="277" selection-end-column="32" />
+            <state relative-caret-position="2156">
+              <caret line="227" column="19" lean-forward="true" selection-start-line="227" selection-start-column="19" selection-end-line="227" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -187,7 +185,7 @@
       <path value="$PROJECT_DIR$/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="width" value="868" />
     <option name="height" value="900" />
   </component>
@@ -261,15 +259,16 @@
       <workItem from="1533620200523" duration="4021000" />
       <workItem from="1533655221544" duration="4686000" />
       <workItem from="1533707377215" duration="319000" />
-      <workItem from="1533746048310" duration="2673000" />
+      <workItem from="1533746048310" duration="3769000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44176000" />
+    <option name="totallyTimeSpent" value="45272000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="868" height="900" extended-state="0" />
+    <frame x="0" y="0" width="868" height="900" extended-state="1" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49752474" visible="true" weight="0.2550177" />
       <window_info id="Structure" order="1" sideWeight="0.50247526" side_tool="true" weight="0.16938111" />
@@ -386,8 +385,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/scss/style.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1150">
-          <caret line="277" column="32" selection-start-line="277" selection-start-column="24" selection-end-line="277" selection-end-column="32" />
+        <state relative-caret-position="2156">
+          <caret line="227" column="19" lean-forward="true" selection-start-line="227" selection-start-column="19" selection-end-line="227" selection-end-column="19" />
         </state>
       </provider>
     </entry>
