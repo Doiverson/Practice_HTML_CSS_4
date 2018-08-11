@@ -1,27 +1,31 @@
-var path = require('path');
-var fs = require('fs');
-var pkg = JSON.parse(fs.readFileSync('./package.json'));
-var assetsPath = path.resolve(pkg.path.assetsDir);
-
 var gulp = require('gulp');
-
-// scss compiler
 var sass = require('gulp-sass');
-
-// add vender prifix
-var autoprefixer = require('gulp-autoprefixer');
-
-// error handling
 var plumber = require('gulp-plumber');
+var bs = require('browser-sync').create();
 
-gulp.task('sass', function() {
-    gulp.src(path.join(assetsPath, 'scss/style.scss'))
-        .pipe(plumber())
-        .pipe(sass())
-        .pipe(autoprefixer())
-        .pipe(gulp.dest(path.join(assetsPath, 'css/')));
+// browser-sync
+gulp.task('bs', function(){
+    var bsOptions = {}
+    bsOptions.files = ['./**/*.html', 'css/**/*.css'];
+    bsOptions.port  = 3000;
+    bs.init(bsOptions);
 });
 
-gulp.task('default', function() {
-    gulp.watch(path.join(assetsPath, 'scss/**/*.scss'),['sass']);
+// Sassコンパイルタスク
+gulp.task('sass', function(){
+    gulp.src('./scss/**/*.scss')
+        .pipe(plumber()) // ←ここが追加
+        .pipe(sass({outputStyle: 'expanded'}))
+        .pipe(gulp.dest('./css/'));
 });
+
+// watchタスク(**/*.scss変更時に実行するタスク)
+gulp.task('sass-watch', ['sass'], function(){
+    var watcher = gulp.watch('./scss/**/*.scss', ['sass']);
+    watcher.on('change', function(event) {
+        console.log('File ' + event.path + ' was ' + event.type + ', running tasks...');
+    });
+});
+
+// gulpのデフォルト動作としてsass-watchを実行
+gulp.task('default', ['bs','sass-watch']);

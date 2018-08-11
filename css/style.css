@@ -1,4 +1,8 @@
 @charset "UTF-8";
+* {
+  font-size: 10px;
+}
+
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
   margin: 0;
   padding: 0;
@@ -45,6 +49,7 @@ p, ul, ol, dl, table, blockquote {
 body {
   background: darkorange;
 }
+
 body .header {
   cursor: default;
   font-size: 0.8em;
@@ -61,13 +66,16 @@ body .header {
   padding-left: 2em;
   position: absolute;
 }
+
 body .header h1 {
   font-weight: 900;
   margin: 0;
 }
+
 body .header h1 span {
   font-weight: 300;
 }
+
 body .header nav {
   right: 2.5em;
   top: 2.2em;
@@ -75,29 +83,35 @@ body .header nav {
   position: absolute;
   text-transform: uppercase;
 }
+
 body .header nav ul {
   list-style: none;
   padding-left: 0;
   font-size: 1.5em;
 }
+
 body .header nav ul li {
   display: inline-block;
   margin-left: 1.5em;
   padding-left: 0;
 }
+
 body .header nav ul li.current > a,
 body .header nav ul li .primary {
   font-weight: 900;
 }
+
 body .header nav ul li.submenu > a:before {
   content: '\f107';
   font-family: "Font Awesome 5 Free";
   font-weight: bold;
   text-decoration: none;
 }
+
 body .header nav ul li .primary {
   background: #83d3c9;
 }
+
 body .header nav ul li a {
   border: solid 1px transparent;
   color: inherit;
@@ -106,6 +120,7 @@ body .header nav ul li a {
   padding: 0.6em 0.75em;
   text-decoration: none;
 }
+
 body .banner {
   background-image: url(".././img/van.jpg");
   background-position: center 60%;
@@ -116,6 +131,7 @@ body .banner {
   /*headerはposition: absolute;なのでイメージ浮く感じ。よってpadding分はページの上から詰められる */
   text-align: center;
 }
+
 body .banner .inner {
   animation-fill-mode: forwards;
   background: rgba(52, 27, 43, 0.5);
@@ -124,6 +140,7 @@ body .banner .inner {
   padding: 3.7em 4.5em;
   text-align: center;
 }
+
 body .banner .inner header {
   display: inline-block;
   border-bottom: solid 2px;
@@ -131,6 +148,7 @@ body .banner .inner header {
   margin: 0 0 2em 0;
   padding: 3px 0 3px 0;
 }
+
 body .banner .inner header h2 {
   border-bottom: solid 2px;
   border-top: solid 2px;
@@ -142,24 +160,29 @@ body .banner .inner header h2 {
   position: relative;
   text-transform: uppercase;
 }
+
 body .banner .inner p {
   letter-spacing: 0.1em;
   margin: 0;
   /*pタグの下に自動で改行が入るので、margin0を指定する */
   text-transform: uppercase;
 }
+
 body .banner .inner footer {
   margin: 2em 0 0 0;
 }
+
 body .banner .inner footer .buttons {
   cursor: default;
   list-style: none;
   padding-left: 0;
 }
+
 body .banner .inner footer .buttons li {
   display: block;
   padding: 1.5em 0 0 0;
 }
+
 body .banner .inner footer .buttons li a {
   width: 100%;
   border: solid 1px;
@@ -177,9 +200,11 @@ body .banner .inner footer .buttons li a {
   text-decoration: none;
   text-transform: uppercase;
 }
+
 body .main {
   padding-top: 5em;
 }
+
 body .main .container {
   position: relative;
   text-align: center;
@@ -187,32 +212,40 @@ body .main .container {
   max-width: 100%;
   color: #fff;
 }
+
 body .main .container h2 {
   margin-bottom: 0;
 }
+
 body .main .container h2 + p {
   margin-bottom: 0;
   padding-top: 1.5em;
 }
+
 body .main .wrapper {
   margin-bottom: 5em;
   padding: 5em;
 }
+
 body .main .style2 {
   background-color: #83d3c9;
   color: #fff;
 }
+
 body .main .style2 .col-8 {
   width: 66%;
 }
+
 body .main .style2 .col-8 .buttons {
   cursor: default;
   list-style: none;
   padding-left: 0;
 }
+
 body .main .style2 .col-8 .buttons:last-child {
   margin-bottom: 0;
 }
+
 body .main .style2 .col-8 .buttons a {
   border: solid 1px;
   border-radius: 0;
@@ -228,9 +261,11 @@ body .main .style2 .col-8 .buttons a {
   text-decoration: none;
   text-transform: uppercase;
 }
+
 body .main .style2 .col-4 {
   width: 34%;
 }
+
 body .main .style2 .col-4 .featured-icons {
   cursor: default;
   margin: -0.75em 0 0 0;
@@ -240,6 +275,7 @@ body .main .style2 .col-4 .featured-icons {
   list-style: none;
   padding-left: 0;
 }
+
 body .main .style2 .col-4 .featured-icons li {
   display: block;
   float: left;
@@ -247,6 +283,7 @@ body .main .style2 .col-4 .featured-icons li {
   width: 50%;
   padding-left: 0;
 }
+
 body .main .style2 .col-4 .featured-icons li .icon {
   display: inline-block;
   font-size: 6.25em;
@@ -257,11 +294,17 @@ body .main .style2 .col-4 .featured-icons li .icon {
   position: relative;
 }
 
+body .main .style2 .col-4 .featured-icons li .icon:before {
+  font-family: "Font Awesome 5 Free";
+  font-style: normal;
+  font-weight: normal;
+  content: "\f017";
+}
+
 @media screen and (max-width: 1680px) {
   body, input, select, textarea {
     font-size: 14px;
   }
-
   .row {
     margin-top: -20px;
     margin-left: -20px;
@@ -272,6 +315,7 @@ body .main .style2 .col-4 .featured-icons li .icon {
     padding: 20px 0 0 20px;
   }
 }
+
 .special-line:before {
   left: 0;
   border-bottom: solid 1.5px;
@@ -283,6 +327,7 @@ body .main .style2 .col-4 .featured-icons li .icon {
   top: -2.25em;
   width: 43%;
 }
+
 .special-line:after {
   right: 0;
   border-bottom: solid 1.5px;
@@ -294,6 +339,7 @@ body .main .style2 .col-4 .featured-icons li .icon {
   top: -2.25em;
   width: 43%;
 }
+
 .special-line .icon {
   cursor: default;
   height: 7em;
@@ -304,6 +350,7 @@ body .main .style2 .col-4 .featured-icons li .icon {
   width: 100%;
   text-decoration: none;
 }
+
 .special-line .icon:before {
   content: "\f080";
   font-size: 3.5em;
@@ -311,4 +358,3 @@ body .main .style2 .col-4 .featured-icons li .icon {
   font-family: "Font Awesome 5 Free";
   font-weight: bold;
 }
-/*# sourceMappingURL=style.css.mapp*/

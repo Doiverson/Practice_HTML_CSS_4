@@ -12,7 +12,7 @@
     "gulp-plumber": "^1.2.0",
     "gulp-sass": "^4.0.1"
   },
-  "path":{
-     "assetsDir": "./assets/"
+  "dependencies": {
+    "browser-sync": "^2.24.6"
   }
 }
