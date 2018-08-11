@@ -1,7 +1,3 @@
-* {
-  font-size: 10px;
-}
-
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
   margin: 0;
   padding: 0;
@@ -276,14 +272,15 @@ body {
               font-size: 6.25em;
               height: 1.25em;
               line-height: 1.25em;
-              width: 1em;
               text-decoration: none;
               position: relative;
               &:before {
                 font-family: "Font Awesome 5 Free";
                 font-style: normal;
-                font-weight: normal;
-                content: "\f017";
+                font-weight: bold;
+              }
+              span {
+                display: none;
               }
             }
           }
@@ -292,6 +289,13 @@ body {
     }
   }
 }
+
+//↑↑scssの知識不足の為、莫大な長さのコードとなってしまいました・・・・。
+
+
+
+
+
 //Media query
 
 @media screen and (max-width: 1680px){
@@ -355,3 +359,23 @@ body {
     }
   }
 }
+
+.fa-clock-o:before {
+  content: "\f017";
+}
+
+.fa-volume-up:before {
+  content: "\f028";
+}
+.fa-laptop:before {
+  content: "\f109";
+}
+
+.fa-lock:before {
+  content: "\f023";
+}
+
+.fa-cog:before {
+  content: "\f013";
+}
+

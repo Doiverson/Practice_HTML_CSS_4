@@ -6,7 +6,7 @@ var bs = require('browser-sync').create();
 // browser-sync
 gulp.task('bs', function(){
     var bsOptions = {}
-    bsOptions.files = ['./**/*.html', './css/**/*.css'];
+    bsOptions.files = ['./**/index.html', './css/**/*.css'];
     bsOptions.port  = 3000;
     bs.init(bsOptions);
 });
