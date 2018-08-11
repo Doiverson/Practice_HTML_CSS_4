@@ -19,7 +19,7 @@ gulp.task('sass', function() {
         .pipe(plumber())
         .pipe(sass())
         .pipe(autoprefixer())
-        .pipe(gulp.dest(path.join(assetsPath, 'css/')));
+        .pipe(gulp.dest(path.join(assetsPath, 'css/style.css')));
 });
 
 gulp.task('default', function() {
