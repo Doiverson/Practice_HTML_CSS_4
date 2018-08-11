@@ -215,6 +215,11 @@ body {
               width: 1em;
               text-decoration: none;
               position: relative; }
+              body .main .style2 .col-4 .featured-icons li .icon:before {
+                font-family: "Font Awesome 5 Free";
+                font-style: normal;
+                font-weight: normal;
+                content: "\f017"; }
 
 @media screen and (max-width: 1680px) {
   body, input, select, textarea {
@@ -264,4 +269,4 @@ body {
     font-family: "Font Awesome 5 Free";
     font-weight: bold; }
 
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.csss.map */
