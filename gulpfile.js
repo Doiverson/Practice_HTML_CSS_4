@@ -8,7 +8,7 @@ var bs = require('browser-sync').create();
 //     var bsOptions = {}
 //     bsOptions.files = ['./**/index.html', './css/**/*.css'];
 //     bsOptions.port  = 3000;
-//     bs.init(bsOptions);
+//     bs.init(bsOptions)gul
 // });
 
 // タスク名と変数名は別々にしといた方が見やすいよ :)
