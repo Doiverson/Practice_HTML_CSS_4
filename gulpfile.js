@@ -52,4 +52,3 @@ gulp.task('default', ['browserSync'], function () {
     gulp.watch('**/*.html', ['html']);
 });
 
-a
