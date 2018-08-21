@@ -221,6 +221,9 @@ body {
               body .main .style2 .col-4 .featured-icons li .icon span {
                 display: none; }
 
+.row > .col-4 {
+  width: 33%; }
+
 @media screen and (max-width: 1680px) {
   body, input, select, textarea {
     font-size: 14px; }
