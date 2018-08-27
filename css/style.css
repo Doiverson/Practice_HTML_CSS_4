@@ -391,8 +391,8 @@ footer.major ul.buttons li a {
 .cta {
   background-attachment: fixed;
   background-color: #645862;
-  background-image: url(../img/van.jpg);
-  background-position: center 60%;
+  background-image: url(../img/5.jpg);
+  background-position: center 80%;
   background-repeat: no-repeat;
   background-size: cover;
   color: #fff;
@@ -440,6 +440,85 @@ footer.major ul.buttons li a {
 .button.primary {
   background: #83d3c9;
   border-color: #83d3c9;
+}
+
+footer.footer {
+  padding: 5em;
+  text-align: center;
+}
+
+footer.footer .icons {
+  list-style: none;
+  padding-left: 0;
+  cursor: default;
+  position: relative;
+}
+
+footer.footer .icons li {
+  display: inline-block;
+  line-height: 1em;
+}
+
+footer.footer .icons li:first-child {
+  padding-left: 0;
+}
+
+footer.footer .copyright {
+  font-size: 0.8em;
+  line-height: 1em;
+}
+
+footer.footer > :last-child {
+  margin-bottom: 0;
+}
+
+.icons .circle {
+  transition: all 0.2s ease-in-out;
+  border: 0;
+  border-radius: 100%;
+  display: inline-block;
+  font-size: 1.25em;
+  height: 2.25em;
+  left: 0;
+  line-height: 2.25em;
+  text-align: center;
+  text-decoration: none;
+  top: 0;
+  width: 2.25em;
+}
+
+.icons .fa-twitter {
+  background: #70aecd;
+  color: #fff;
+}
+
+.icons .fa-facebook {
+  background: #7490c3;
+  color: #fff;
+}
+
+.icons .fa-google-plus {
+  background: #db6b67;
+  color: #fff;
+}
+
+.icons .fa-github {
+  background: #dcad8b;
+  color: #fff;
+}
+
+.icons .fa-dribbble {
+  background: #da83ae;
+  color: #fff;
+}
+
+.icons .icon > .label {
+  display: none;
+}
+
+.icons .icon:before {
+  font-style: normal;
+  text-transform: none;
 }
 
 @media screen and (max-width: 1680px) {

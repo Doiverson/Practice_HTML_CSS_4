@@ -383,8 +383,8 @@ footer.major {
 .cta {
   background-attachment: fixed;
   background-color: #645862;
-  background-image: url(../img/van.jpg);
-  background-position: center 60%;
+  background-image: url(../img/5.jpg);
+  background-position: center 80%;
   background-repeat: no-repeat;
   background-size: cover;
   color: #fff;
@@ -434,6 +434,93 @@ footer.major {
   border-color: #83d3c9;
 }
 
+footer.footer {
+  padding: 5em;
+  text-align: center;
+
+  .icons {
+    list-style: none;
+    padding-left: 0;
+    cursor: default;
+    position: relative;
+
+    li {
+      display: inline-block;
+      line-height: 1em;
+
+      &:first-child {
+        padding-left: 0;
+      }
+    }
+  }
+
+  .copyright {
+    font-size: 0.8em;
+    line-height: 1em;
+  }
+
+  & >:last-child {
+    margin-bottom: 0;
+  }
+}
+
+
+
+.icons {
+
+  .circle {
+    transition:  all 0.2s ease-in-out;
+    border: 0;
+    border-radius: 100%;
+    display: inline-block;
+    font-size: 1.25em;
+    height: 2.25em;
+    left: 0;
+    line-height: 2.25em;
+    text-align: center;
+    text-decoration: none;
+    top: 0;
+    width: 2.25em;
+  }
+
+  .fa-twitter{
+    background: #70aecd;
+    color: #fff;
+  }
+
+  .fa-facebook {
+    background: #7490c3;
+    color: #fff;
+  }
+
+  .fa-google-plus {
+    background: #db6b67;
+    color: #fff;
+  }
+
+  .fa-github {
+    background: #dcad8b;
+    color: #fff;
+  }
+
+  .fa-dribbble {
+    background: #da83ae;
+    color: #fff;
+  }
+
+  .icon {
+
+    & > .label {
+      display: none;
+    }
+
+    &:before {
+      font-style: normal;
+      text-transform: none;
+
+      }
+    }
+}
 
 
 
@@ -537,7 +624,3 @@ footer.major {
 .fa-cog:before {
   content: "\f013";
 }
-
-//.test {
-//  color: black;
-//}
