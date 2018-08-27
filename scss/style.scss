@@ -48,10 +48,6 @@ p, ul, ol, dl, table, blockquote {
 }
 
 
-//strong {
-//  font-weight: 400;
-//}
-
 
 body {
   background: darkorange;
@@ -101,6 +97,7 @@ body {
           .primary {
             font-weight: 900;
           }
+
           &.submenu > a:before {
             content:'\f107';
             font-family: "Font Awesome 5 Free";
@@ -295,6 +292,7 @@ body {
     }
   }
 }
+
 
 .row > .col-4 {
   width: 33%;

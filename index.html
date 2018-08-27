@@ -19,22 +19,12 @@
                         <a href="#">Welcome</a>
                     </li>
                     <li class="submenu opener" style="user-select: none; cursor: pointer; white-space: nowrap; opacity: 1;">
-                        <a style="cursor:pointer">Layouts</a>
-                        <ul style="user-select: none; display: none; position: absolute;">
-                            <li style="white-space: nowrap"><a href="#" style="display: block;">Left Sidebar</a></li>
-                            <li style="white-space: nowrap"><a href="#" style="display: block;">Right Sidebar</a></li>
-                            <li style="white-space: nowrap"><a href="#" style="display: block;">No Sidebar</a></li>
-                            <li style="white-space: nowrap"><a href="#" style="display: block;">Contact Sidebar</a></li>
-                            <li class="submenu opener" style="user-select: none; cursor: pointer; white-space: nowrap">
-                                <a style="display: block; cursor: pointer;">Submenu</a>
-                                <ul class="dropotron" style="user-select: none; display: none; position: absolute;">
-                                    <li style="white-space: nowrap"><a style="display: block; cursor: pointer;">Dolore Sed</a></li>
-                                    <li style="white-space: nowrap"><a style="display: block; cursor: pointer;">Consequat</a></li>
-                                    <li style="white-space: nowrap"><a style="display: block; cursor: pointer;">Lorem Magna</a></li>
-                                    <li style="white-space: nowrap"><a style="display: block; cursor: pointer;">Sed Magna</a></li>
-                                    <li style="white-space: nowrap"><a style="display: block; cursor: pointer;">Ipsum Nisl</a></li>
-                                </ul>
-                            </li>
+                        <a class="opener" style="cursor:pointer">Layouts</a>
+                        <ul class="list" style="user-select: none; display: none; position: absolute;">
+                            <li class="sub-item" style="white-space: nowrap"><a href="#" style="display: block;">Left Sidebar</a></li>
+                            <li class="sub-item" style="white-space: nowrap"><a href="#" style="display: block;">Right Sidebar</a></li>
+                            <li class="sub-item" style="white-space: nowrap"><a href="#" style="display: block;">No Sidebar</a></li>
+                            <li class="sub-item" style="white-space: nowrap"><a href="#" style="display: block;">Contact Sidebar</a></li>
                         </ul>
                     </li>
                     <li style="white-space: nowrap;"><a class="button primary" style="cursor: pointer;">Sign up</a></li>
@@ -182,7 +172,8 @@
             </ul>
         </footer>
     </div>
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/dropbox_menu.js"></script>
     <script id="__bs_script__">//<![CDATA[
     document.write("<script async src='http://HOST:3000/browser-sync/browser-sync-client.js?v=2.24.6'><\/script>".replace("HOST", location.hostname));
     //]]></script>
@@ -190,5 +181,3 @@
 </html>
 
 <!--FontAwesomeの"fa""fab"などの表記注意。反映されない時あるので公式サイトをチェック。-->
-
-a
