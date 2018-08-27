@@ -27,6 +27,10 @@ h2 {
   font-size: 1.5em;
   letter-spacing: 0.1em; }
 
+h3 {
+  font-size: 1.15em;
+  letter-spacing: 0.025em; }
+
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
   color: inherit;
   text-decoration: none;
@@ -223,6 +227,21 @@ body {
 
 .row > .col-4 {
   width: 33%; }
+
+.icon.featured {
+  cursor: default;
+  display: block;
+  margin: 0 0 1.5em 0;
+  opacity: .35;
+  text-align: center; }
+  .icon.featured:before {
+    font-size: 5em;
+    line-height: 1em; }
+
+.fa-check:before {
+  content: "\f00c";
+  font-family: "Font Awesome 5 Free";
+  font-weight: bold; }
 
 @media screen and (max-width: 1680px) {
   body, input, select, textarea {
