@@ -243,6 +243,19 @@ body {
   font-family: "Font Awesome 5 Free";
   font-weight: bold; }
 
+.main > :last-child {
+  margin-bottom: 0; }
+
+.wrapper.style3 {
+  background: #83d3c9;
+  text-align: center;
+  padding: 5em; }
+  .wrapper.style3 .row > .col-6 {
+    width: 50%; }
+    .wrapper.style3 .row > .col-6 .image.featured {
+      display: block;
+      margin: 0 0 2em 0; }
+
 @media screen and (max-width: 1680px) {
   body, input, select, textarea {
     font-size: 14px; }
@@ -255,6 +268,8 @@ body {
     box-sizing: border-box;
     align-items: stretch;
     padding: 20px 0 0 20px; } }
+@media screen and (max-width: 1680px) {
+  width: 1200px; }
 .special-line:before {
   left: 0;
   border-bottom: solid 1.5px;

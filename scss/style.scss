@@ -225,6 +225,7 @@ body {
       margin-bottom: 5em;
       padding: 5em;
     }
+
     .style2 {
       background-color: #83d3c9;
       color: #fff;
@@ -317,6 +318,25 @@ body {
   font-weight: bold;
 }
 
+.main > :last-child {
+  margin-bottom: 0;
+}
+
+.wrapper.style3{
+  background: #83d3c9;
+  text-align: center;
+  padding: 5em;
+  .row > .col-6{
+    width: 50%;
+
+    .image.featured {
+      display: block;
+      margin: 0 0 2em 0;
+    }
+  }
+
+}
+
 
 //↑↑scssの知識不足の為、莫大な長さのコードとなってしまいました・・・・。
 
@@ -342,6 +362,9 @@ body {
   }
 }
 
+@media screen and (max-width: 1680px){
+  width: 1200px;
+}
 
 
 
