@@ -332,10 +332,58 @@ body {
     .image.featured {
       display: block;
       margin: 0 0 2em 0;
+
+      img {
+        display: block;
+        width: 100%;
+      }
     }
   }
 
 }
+
+footer.major {
+  padding-top: 3em;
+
+  ul.buttons {
+    cursor: default;
+    list-style: none;
+    padding-left: 0;
+
+    li {
+      display: inline-block;
+      padding: 1.5em 0 0 0;
+
+      &:first-child {
+        padding: 0;
+      }
+
+      a {
+        width: 100%;
+        border: solid 1px;
+        border-radius: 0;
+        color: inherit;
+        cursor: pointer;
+        display: inline-block;
+        font-size: 0.8em;
+        font-weight: 900;
+        letter-spacing: 2px;
+        min-width: 18em;
+        padding: 0 0.75em;
+        line-height: 3.75em;
+        text-align: center;
+        text-decoration: none;
+        text-transform: uppercase;
+      }
+    }
+  }
+}
+
+
+
+
+
+
 
 
 //↑↑scssの知識不足の為、莫大な長さのコードとなってしまいました・・・・。
@@ -363,7 +411,13 @@ body {
 }
 
 @media screen and (max-width: 1680px){
-  width: 1200px;
+  .container{
+    width: 1200px;
+  }
+  .row > * {
+    padding: 40px 20px 0 20px;
+    box-sizing: border-box;
+  }
 }
 
 
