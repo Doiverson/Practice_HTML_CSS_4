@@ -1,6 +1,6 @@
-$(function(){
-    const open = $('.opener');
-    $(open).on('mouseover', ()=>{
-        $('.list').show();
-    })
-})
+// $(function(){
+//     const open = $('.opener');
+//     $(open).on('mouseover', ()=>{
+//         $('.sub-wrap').show();
+//     })
+// })
